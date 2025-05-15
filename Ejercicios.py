@@ -355,3 +355,22 @@
 #     dice = random.randint(1, 6, 4)
 #     return dice
 # print(dado())
+
+
+#🔴 Nivel Avanzado
+# Suma de elementos únicos
+# Escribe una función que reciba una lista de números y devuelva la suma de los elementos únicos.
+lista = [1,2,3,2,4,3,5] 
+def count_number(lista):
+    unique_elements = []
+    print(lista)
+    for i in lista: 
+       if lista.count(i) == 1:
+        unique_elements.append(i)
+    return sum(unique_elements)
+print(f"The sum of the unique elements  is {count_number(lista)}") 
+
+
+
+
+
